@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Fundamentals-Section/1.0.0": {
+        "dependencies": {
+          "Advanced-Section": "1.0.0",
+          "Web-Section": "1.0.0"
+        },
+        "runtime": {
+          "Fundamentals-Section.dll": {}
+        }
+      },
+      "Advanced-Section/1.0.0": {
+        "runtime": {
+          "Advanced-Section.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Web-Section/1.0.0": {
+        "runtime": {
+          "Web-Section.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fundamentals-Section/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Advanced-Section/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Web-Section/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

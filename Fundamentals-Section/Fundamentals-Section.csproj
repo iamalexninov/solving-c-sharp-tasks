@@ -8,4 +8,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Advanced-Section\Advanced-Section.csproj" />
+    <ProjectReference Include="..\Web-Section\Web-Section.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Basic Syntax, Conditional Statements and Loops\Files\" />
+  </ItemGroup>
+
 </Project>
