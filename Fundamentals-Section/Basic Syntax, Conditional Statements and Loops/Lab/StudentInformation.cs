@@ -13,7 +13,7 @@
             _studentAverageGrade = grade;
         }
 
-        private string FormattingString(string name, int age, double grade) => $"Name: {name}, Age: {age}, Grade: {grade}";
+        private string FormattingString(string name, int age, double grade) => $"Name: {name}, Age: {age}, Grade: {grade:F2}";
 
         public void PrintTaskResult()
         {
